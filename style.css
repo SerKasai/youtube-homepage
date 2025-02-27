@@ -11,9 +11,11 @@ body {
 }
 
 header {
-  padding: 30px;
+  padding: 20px;
   border: 2px solid red;
-  height: 100px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 main {
@@ -32,4 +34,48 @@ main {
   flex-grow: 1;
   padding: 20px;
   border: 2px solid blue;
+}
+
+.left-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.logo img {
+  width: 110px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.search {
+  display: flex;
+}
+
+.input-shape {
+  display: flex;
+  border-radius: 10px;
+  height: 30px;
+  width: 30vw;
+  padding-left: 10px;
+}
+
+.search {
+  display: flex;
+}
+
+.search button {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.icon-mic {
+  display: flex;
 }
