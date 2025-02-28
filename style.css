@@ -11,11 +11,12 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 10px 20px;
   border: 2px solid red;
   height: 70px;
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 main {
@@ -60,28 +61,25 @@ main {
 
 .input-shape {
   display: flex;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 40px;
   width: 25vw;
   padding-left: 10px;
 }
 
-.search {
-  display: flex;
-}
-
 .search button {
   display: flex;
-  height: 30px;
+  height: 40px;
   width: 64px;
   align-items: center;
   justify-content: center;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   background-color: #f8f8f8;
   right: 2px;
   position: relative;
+  font-size: 20px;
 }
 
 .search button:hover {
@@ -102,4 +100,69 @@ main {
   font-size: larger;
   border-radius: 50%;
   border: none;
+}
+
+.icon-mic button:hover {
+  background-color: #d4d3d3;
+}
+
+.profile-bar {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.crea button {
+  display: flex;
+  height: 36px;
+  width: 85px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #E5E5E5;
+  right: 2px;
+  position: relative;
+  font-size: 20px;
+  border: none;
+}
+
+.crea button:hover {
+  background-color: #d4d3d3;
+}
+
+.crea span {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.notifiche {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  background: none;
+  border: none;
+  border-radius: 50%;
+}
+
+.notifiche:hover {
+  background-color: #d4d3d3;
+}
+
+.img-profile {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  background: #512DA7;
+  border: none;
+  color: white;
+  border-radius: 50%;
 }
