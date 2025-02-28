@@ -27,10 +27,11 @@ main {
 }
 
 .sidebar {
-  padding: 0 20px;
+  padding: 0 12px;
   width: 240px;
   /* border: 2px solid orange; */
   display: flex;
+  flex-direction: column;
 }
 
 .main-container {
@@ -173,14 +174,29 @@ main {
   display: flex;
   list-style: none;
   flex-direction: column;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #d4d3d3;
+  padding-bottom: 20px;
 }
 
 .home-section i {
   padding-right: 20px;
   padding-left: 15px;
   font-size: x-large;
+}
 
+.you-section {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  border-bottom: 1px solid #d4d3d3;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.you-section i {
+  padding-right: 20px;
+  padding-left: 15px;
+  font-size: x-large;
 }
 
 .icon-side {
