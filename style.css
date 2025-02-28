@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 
 header {
   padding: 10px 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -21,14 +22,15 @@ header {
 
 main {
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   flex-grow: 1;
 }
 
 .sidebar {
-  padding: 20px;
+  padding: 0 20px;
   width: 240px;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
+  display: flex;
 }
 
 .main-container {
@@ -165,4 +167,41 @@ main {
   border: none;
   color: white;
   border-radius: 50%;
+}
+
+.home-section {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+}
+
+.home-section i {
+  padding-right: 20px;
+  padding-left: 15px;
+  font-size: x-large;
+
+}
+
+.icon-side {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.icon-side button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 180px;
+  height: 40px;
+  background: none;
+}
+
+.icon-side button:hover {
+  background: #E5E5E5;
 }
