@@ -36,7 +36,7 @@ main {
 
 .main-container {
   flex-grow: 1;
-  padding: 20px;
+  padding: 10px;
   border: 2px solid blue;
 }
 
@@ -176,6 +176,7 @@ main {
   flex-direction: column;
   border-bottom: 1px solid #d4d3d3;
   padding-bottom: 20px;
+  padding-top: 7px;
 }
 
 .home-section i {
@@ -220,4 +221,85 @@ main {
 
 .icon-side button:hover {
   background: #E5E5E5;
+}
+
+.iscrizioni {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  border-bottom: 1px solid #d4d3d3;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.iscrizioni i {
+  padding-right: 20px;
+  padding-left: 15px;
+  font-size: x-large;
+}
+
+.icon-side2 {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.icon-side2 button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 180px;
+  height: 40px;
+  background: none;
+}
+
+.main-bar {
+  display: flex;
+  list-style: none;
+  /* padding-bottom: 20px; */
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 24px;
+  column-gap: 10px;
+}
+
+.top-button {
+  display: flex;
+}
+
+.top-buttons {
+  display: flex;
+}
+
+.top-button button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  width: 53px;
+  height: 32px;
+  background: none;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+.top-buttons button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  min-width: 47px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-buttons span {
+  padding: 0 10px;
+  font-weight: bold;
 }
