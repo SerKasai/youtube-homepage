@@ -176,7 +176,7 @@ main {
   flex-direction: column;
   border-bottom: 1px solid #d4d3d3;
   padding-bottom: 20px;
-  padding-top: 7px;
+  padding-top: 12px;
 }
 
 .home-section i {
@@ -263,7 +263,7 @@ main {
   /* padding-bottom: 20px; */
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding: 0 24px;
+  padding: 5px 24px;
   column-gap: 10px;
 }
 
@@ -307,7 +307,8 @@ main {
 .video-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 25px;
+  padding: 20px 25px;
+  background-color: #f8f8f8;
 
 }
 
@@ -363,4 +364,38 @@ p {
   color: #606060;
   padding-top: 5px;
   font-size: 15px;
+}
+
+/* media query */
+
+@media screen and (max-width: 1490px) {
+  .icon-side {
+    padding: 10px 10px;
+  }
+
+  .icon-side button {
+    width: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  }
+
+  .sidebar {
+    padding: 0;
+    /* width: 80px; */
+  }
+
+  .you-section {
+    display: none;
+  }
+
+  .iscrizioni {
+    display: none;
+  }
+
+  .home-section {
+    border: none;
+    row-gap: 10px;
+  }
 }
